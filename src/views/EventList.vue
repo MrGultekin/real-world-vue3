@@ -11,7 +11,7 @@
 import EventCard from "@/components/EventCard.vue";
 
 export default {
-  name: "Home",
+  name: "EventList",
   components: {
     EventCard,
   },
@@ -38,7 +38,7 @@ export default {
           date: "March 14, 2022",
           time: "10:00",
           petsAllowed: true,
-          organizer: "Fern Pollin"
+          organizer: "Fern Pollin",
         },
         {
           id: 8419988,
@@ -49,7 +49,7 @@ export default {
           date: "July 22, 2022",
           time: "11:00",
           petsAllowed: false,
-          organizer: "Carey Wales"
+          organizer: "Carey Wales",
         },
       ],
     };
